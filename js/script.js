@@ -54,7 +54,11 @@ ScrollReveal().reveal(".home-content h1 , .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p , .about-content", { origin: "top" });
 /*==================== typed js ====================*/
 const typed = new Typed(".multiple-text", {
-  strings: ["MEAN Developer!", "Frontend Developer!", "Backend Developer!"],
+  strings: [
+    "MEAN Stack Developer!",
+    "Frontend Developer!",
+    "Backend Developer!",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1500,
