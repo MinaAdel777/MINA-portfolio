@@ -36,22 +36,22 @@ window.onscroll = () => {
 };
 
 /*==================== scroll reveal ====================*/
-ScrollReveal({
-  // reset: true,
-  distance: "70px",
-  duration: 1000,
-  delay: 200,
-});
+// ScrollReveal({
+//   // reset: true,
+//   distance: "70px",
+//   duration: 1000,
+//   delay: 200,
+// });
 
-ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
-ScrollReveal().reveal(
-  ".home-img, .skills-container, .portfolio-box, .contact form",
-  {
-    origin: "bottom",
-  }
-);
-ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+// ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
+// ScrollReveal().reveal(
+//   ".home-img, .skills-container, .portfolio-box, .contact form",
+//   {
+//     origin: "bottom",
+//   }
+// );
+// ScrollReveal().reveal(".home-content h1", { origin: "left" });
+// ScrollReveal().reveal(".home-content p", { origin: "right" });
 /*==================== typed js ====================*/
 const typed = new Typed(".multiple-text", {
   strings: ["MEAN Developer!", "Frontend Developer!", "Backend Developer!"],
