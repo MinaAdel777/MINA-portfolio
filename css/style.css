@@ -73,6 +73,9 @@ section {
   display: none;
 }
 
+span {
+  color: var(--main-color);
+}
 /* !================(Home)================= */
 .home {
   /* height: 100dvh; */
@@ -87,9 +90,6 @@ section {
 }
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
-}
-span {
-  color: var(--main-color);
 }
 .home-content {
   padding-right: 35px;
@@ -140,7 +140,7 @@ span {
 }
 
 .home-img img {
-  width: 35vw;
+  width: 30vw;
   animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
@@ -185,8 +185,8 @@ span {
   font-size: 2.6rem;
 }
 .about-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
+  font-size: 1.8rem;
+  margin: 2rem 0 2rem;
 }
 
 /* !================(Skills)================= */
@@ -303,7 +303,7 @@ span {
   font-size: 2.5rem;
 }
 .portfolio-layer p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin: 0.3rem 0 1rem;
 }
 
@@ -323,7 +323,10 @@ span {
   font-size: 2rem;
   color: var(--second-bg-color);
 }
-
+.portfolio-box span {
+  color: var(--second-bg-color);
+  font-weight: 600;
+}
 /* !================(Contact)================= */
 
 .contact {
@@ -485,11 +488,11 @@ span {
 
   .home-content h3 {
     text-align: left;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: left;
   }
   .home-content p {
@@ -502,7 +505,9 @@ span {
   .social-media {
     text-align: center;
   }
-
+  .social-media a {
+    margin: 2rem 1.5rem 2rem 0;
+  }
   .about {
     flex-direction: column-reverse;
     margin-top: 4rem;
@@ -517,7 +522,6 @@ span {
   }
   .about img {
     width: 60vw;
-    margin-top: 4rem;
   }
   .skills {
     display: flex;
@@ -547,14 +551,18 @@ span {
 }
 
 @media (max-width: 525px) {
+  .about-content p {
+    font-size: 1.7rem;
+    margin: 2rem 0 1.5rem;
+  }
   .skills-container {
     gap: 0rem;
   }
   .skills-box {
     min-width: 180px;
     width: 15%;
-    height: 8dvh;
-    margin: 1rem 0.8rem;
+    height: 9dvh;
+    margin: 1rem 0.5rem;
     padding: 0.8rem;
     border-radius: 1.2rem;
   }
@@ -571,7 +579,7 @@ span {
   }
 
   .skills-box p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .portfolio-box {
     height: 20dvh;
